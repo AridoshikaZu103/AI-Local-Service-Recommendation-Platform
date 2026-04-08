@@ -1,4 +1,4 @@
-[# 🚀 NearNest AI — Local Service Recommendation Platform
+# 🚀 NearNest AI — Local Service Recommendation Platform
 
 > **Find trusted local professionals (electricians, plumbers, tutors, etc.) powered by AI that analyzes reviews and ranks the best services for you.**
 
@@ -118,7 +118,7 @@ cd NearNestAI
 Create a file called `.env` inside the `server/` folder with this content:
 ```
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/nearnest
+MONGODB_URI=mongodb+srv://soorajidpcse_db_user:jntuhroot@m0.h368xus.mongodb.net/nearnest
 PYTHON_AI_URL=http://127.0.0.1:5001
 CORS_ORIGIN=http://localhost:5173
 NODE_ENV=development
@@ -165,7 +165,7 @@ Go to: **http://localhost:5173/**
 
 ---
 
-## 🗄️ MongoDB Setup (Local Only)
+## 🗄️ MongoDB Setup (Local and Atlas)
 
 ### **Install MongoDB on Windows:**
 1. Download from https://www.mongodb.com/try/download/community
@@ -182,12 +182,12 @@ mongosh
 
 ### **Connection String (used in .env file):**
 ```
-mongodb://localhost:27017/nearnest
+mongodb+srv://soorajidpcse_db_user:jntuhroot@m0.h368xus.mongodb.net/nearnest
 ```
 
 ### **Using MongoDB Compass:**
 1. Open MongoDB Compass
-2. Connect using: `mongodb://localhost:27017`
+2. Connect using: `mongodb+srv://soorajidpcse_db_user:jntuhroot@m0.h368xus.mongodb.net/nearnest`
 3. You'll see the `nearnest` database with `services` and `reviews` collections
 
 ### **Troubleshooting MongoDB:**
@@ -322,7 +322,7 @@ NearNestAI/
 ### `server/.env`
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/nearnest
+MONGODB_URI=mongodb+srv://soorajidpcse_db_user:jntuhroot@m0.h368xus.mongodb.net/nearnest
 PYTHON_AI_URL=http://127.0.0.1:5001
 CORS_ORIGIN=http://localhost:5173
 NODE_ENV=development
@@ -386,4 +386,3 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 ---
 *Built with passion, microservices, and AI-powered recommendations. 🚀*
 
-](https://drive.google.com/file/d/1TjQL1-kWMkM0MFYydIbfLibNNsSKB8cU/view?usp=drive_link)
