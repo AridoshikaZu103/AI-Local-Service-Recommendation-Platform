@@ -375,7 +375,7 @@ VITE_API_URL=http://localhost:5000
 
 ## 🌍 Live Demo & Repository
 
-- **Frontend:** [NearNest AI on Vercel](https://near-nest-ai.vercel.app)
+- **Frontend:** [NearNest AI on Vercel](https://ai-local-service-recommendation-pla.vercel.app)
 - **Repository:** [GitHub - NearNestAI](https://github.com/OptCamp/NearNestAI)
 
 ---
