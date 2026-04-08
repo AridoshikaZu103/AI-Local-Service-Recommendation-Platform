@@ -55,7 +55,7 @@ Create a file called `.env` inside the `server/` folder.
 cd server
 @"
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/nearnest
+MONGODB_URI=mongodb+srv://soorajidpcse_db_user:jntuhroot@m0.h368xus.mongodb.net/nearnest
 PYTHON_AI_URL=http://127.0.0.1:5001
 CORS_ORIGIN=http://localhost:5173
 NODE_ENV=development
@@ -68,7 +68,7 @@ NODE_ENV=development
 3. Paste this content:
 ```
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/nearnest
+MONGODB_URI=mongodb+srv://soorajidpcse_db_user:jntuhroot@m0.h368xus.mongodb.net/nearnest
 PYTHON_AI_URL=http://127.0.0.1:5001
 CORS_ORIGIN=http://localhost:5173
 NODE_ENV=development
@@ -311,7 +311,7 @@ node server.js
 # Start MongoDB service (run as Administrator):
 net start MongoDB
 # Then verify:
-mongosh
+mongosh 
 ```
 
 ### **"Python Flask not starting"**
