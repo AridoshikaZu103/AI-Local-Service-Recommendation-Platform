@@ -1,0 +1,16 @@
+# Dependency Directories Structure
+node_modules/
+ai-model/venv/
+__pycache__/
+
+# Secrets and Environments
+.env
+server/.env
+client/.env
+
+# Build outputs
+client/dist/
+
+# OS specific files
+.DS_Store
+Thumbs.db
