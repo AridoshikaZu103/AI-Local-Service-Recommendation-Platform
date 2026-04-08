@@ -370,6 +370,9 @@ VITE_API_URL=http://localhost:5000
 - `[Sign In / Sign Up page]`
 <img width="1697" height="891" alt="Image" src="https://github.com/user-attachments/assets/2ad3d40a-d0c9-4345-a36f-f35c62626aba" />
 
+## 📹 Video Tutorial
+**[Project](https://drive.google.com/drive/folders/1ZXZI5dlbUbEkigkjb3UJEd-lahmfdRWq)**
+
 ## 🌍 Live Demo & Repository
 
 - **Frontend:** [NearNest AI on Vercel](https://near-nest-ai.vercel.app)
