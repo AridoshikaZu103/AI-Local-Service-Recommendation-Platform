@@ -8,8 +8,8 @@
 
 | #   | Name                 | Role | GitHub |
 | --- | -------------------- |------|--------|
-| 1   |**Sai Ganesh**     |Full Stack Developer | psg210107@gmail.com |
-| 2   | **Shashank Reddy.D** |Frontend developer | shashankreddy@gmail.com |
+| 1   |**Sai Ganesh Pushadapu**     |Full Stack Developer | psg210107@gmail.com |
+| 2   | **Shashank Reddy.D** |Frontend developer | dachanni2008@gmail.com |
 | 3   | **S Sooraj**           |AI / DevOps Lead and also	System Integration & Testing| soorajidpcse@gmail.com |
 
 ---
@@ -52,9 +52,7 @@ Finding reliable local services is frustrating:
 | **Database** | MongoDB (Local) | Stores all services, reviews, and user data |
 | **AI Module** | Python, Flask, VADER, TextBlob | Analyzes reviews and extracts meaning from chat messages |
  
----
 
-<img width="1919" height="897" alt="Image" src="https://github.com/user-attachments/assets/c9ec947a-4240-4400-ab1d-802564e2af44" />
 
 ---
 
@@ -362,15 +360,20 @@ VITE_API_URL=http://localhost:5000
 ## 📸 Screenshots
 *(Add your stunning UI screenshots here!)*
 - `[Homepage with hero section and top picks]`
+<img width="1498" height="871" alt="Image" src="https://github.com/user-attachments/assets/cf048dea-00a8-4177-aab9-2f1ba3e0899d" />
 - `[Search results page with filters working]`
+ <img width="1919" height="897" alt="Image" src="https://github.com/user-attachments/assets/c9ec947a-4240-4400-ab1d-802564e2af44" />
 - `[AI Chatbot in action]`
+<img width="1602" height="889" alt="Image" src="https://github.com/user-attachments/assets/ed2fdaea-8681-4fd2-bffd-6b0290b50333" />
 - `[Service details with review sentiment badges]`
+<img width="1897" height="873" alt="Image" src="https://github.com/user-attachments/assets/3197d491-db93-40ee-837f-6ff420ae304b" />
 - `[Sign In / Sign Up page]`
+<img width="1697" height="891" alt="Image" src="https://github.com/user-attachments/assets/2ad3d40a-d0c9-4345-a36f-f35c62626aba" />
 
 ## 🌍 Live Demo & Repository
 
 - **Frontend:** [NearNest AI on Vercel](https://near-nest-ai.vercel.app)
-- **Repository:** [GitHub - NearNestAI](https://github.com/your-username/NearNestAI)
+- **Repository:** [GitHub - NearNestAI](https://github.com/OptCamp/NearNestAI)
 
 ---
 
