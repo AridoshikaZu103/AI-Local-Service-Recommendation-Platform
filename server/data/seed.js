@@ -78,7 +78,7 @@ const servicesData = [
   }
 ];
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/nearnest')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://soorajidpcse_db_user:jntuhroot@m0.h368xus.mongodb.net/nearnest')
   .then(async () => {
     console.log('MongoDB connected for seeding...');
     
