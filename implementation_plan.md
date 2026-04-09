@@ -1,5 +1,4 @@
-# Deploy NearNestAI: localhost → https://near_nest_ai.vercel.app/
-
+# Deploy NearNestAI: localhost → [https://ai-local-service-recommendation-pla.vercel.app/]
 ## Architecture Overview
 
 Your app has **3 parts**:
@@ -100,7 +99,7 @@ git push origin main
 |----------|-------|
 | `MONGODB_URI` | `mongodb+srv://soorajidpcse_db_user:***@m0.h368xus.mongodb.net/nearnest` |
 | `PYTHON_AI_URL` | `https://your-python-service.onrender.com` (if Option A) |
-| `CORS_ORIGIN` | `https://near-nest-ai.vercel.app` |
+| `CORS_ORIGIN` | `https://ai-local-service-recommendation-pla.vercel.app/` |
 | `NODE_ENV` | `production` |
 
 ### Step 4: Seed Database (if needed)
@@ -115,7 +114,7 @@ cd server && node data/seed.js
 
 > [!IMPORTANT]
 > 1. **Python AI Model** — Which option (A/B/C) do you prefer? This affects how we structure the deployment.
-> 2. **Custom Domain** — Do you already have `near_nest_ai.vercel.app` reserved, or will Vercel auto-generate the domain?
+> 2. **Custom Domain** — Do you already have `https://ai-local-service-recommendation-pla.vercel.app` reserved, or will Vercel auto-generate the domain?
 > 3. **MongoDB Atlas credentials** — Should I remove the hardcoded connection string from `server.js` and rely purely on env vars?
 
 ---
@@ -128,6 +127,6 @@ cd server && node data/seed.js
 - Hit `/api/services` endpoint and verify JSON response
 
 ### Manual Verification
-- After deployment, visit `https://near-nest-ai.vercel.app`
+- After deployment, visit `https://ai-local-service-recommendation-pla.app`
 - Test search, service details, chatbot, and review submission
 - Verify MongoDB Atlas data is being read correctly
