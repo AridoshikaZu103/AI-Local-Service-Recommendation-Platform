@@ -379,10 +379,5 @@ VITE_API_URL=http://localhost:5000
 - **Repository:** [GitHub - NearNestAI](https://github.com/OptCamp/NearNestAI)
 
 ---
-
-## 📜 License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
----
 *Built with passion, microservices, and AI-powered recommendations. 🚀*
 
