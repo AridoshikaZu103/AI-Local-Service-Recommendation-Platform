@@ -58,7 +58,7 @@ router.get('/ranked', async (req, res) => {
         // Call Python AI for trust score computation
         let ranked;
         try {
-            const PYTHON_URL = process.env.PYTHON_AI_URL || 'http://127.0.0.1:5001';
+            const PYTHON_URL = process.env.PYTHON_AI_URL || 'https://ai-local-service-recommendation-platform.onrender.com';
             const aiRes = await axios.post(`${PYTHON_URL}/rank`, {
                 services: servicesWithSentiment
             });
@@ -101,7 +101,7 @@ router.post('/:id/reviews', async (req, res) => {
 
         let sentiment = 'Neutral';
         try {
-            const PYTHON_URL = process.env.PYTHON_AI_URL || 'http://127.0.0.1:5001';
+            const PYTHON_URL = process.env.PYTHON_AI_URL || 'https://ai-local-service-recommendation-platform.onrender.com';
             const aiRes = await axios.post(`${PYTHON_URL}/analyze`, { text });
             sentiment = aiRes.data.sentiment;
         } catch (aiErr) {
@@ -137,7 +137,7 @@ router.post('/chat', async (req, res) => {
         const { message } = req.body;
 
         // Ask Python to extract intent
-        const PYTHON_URL = process.env.PYTHON_AI_URL || 'http://127.0.0.1:5001';
+        const PYTHON_URL = process.env.PYTHON_AI_URL || 'https://ai-local-service-recommendation-platform.onrender.com';
         const aiRes = await axios.post(`${PYTHON_URL}/extract_intent`, { text: message });
         const { category, location } = aiRes.data;
 
