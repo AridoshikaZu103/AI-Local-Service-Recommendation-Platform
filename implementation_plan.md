@@ -1,4 +1,4 @@
-# Deploy NearNestAI: localhost → https://near_nest_ai.vercel.app/
+# Deploy NearNestAI: localhost → https://ai-local-service-recommendation-pla.vercel.app/
 
 ## Architecture Overview
 
