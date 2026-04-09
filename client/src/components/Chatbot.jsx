@@ -21,7 +21,7 @@ export default function Chatbot() {
     setLoading(true);
 
     try {
-      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const API_URL = import.meta.env.VITE_API_URL || 'https://nearnest-server.vercel.app/';
       const res = await axios.post(`${API_URL}/api/services/chat`, { message: userText });
       setMessages(prev => [
         ...prev, 

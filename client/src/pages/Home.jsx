@@ -11,7 +11,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://nearnest-server.vercel.app';
     // Day 2 Fix: Use /ranked endpoint for AI Trust Score sorted results
     axios.get(`${API_URL}/api/services/ranked?limit=3`)
       .then(res => setServices(res.data))

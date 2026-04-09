@@ -19,7 +19,7 @@ export default function SearchResults() {
   // Fetch services from API when category or sort changes
   useEffect(() => {
     setLoading(true);
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://nearnest-server.vercel.app';
 
     // Pass sort parameter to backend for deterministic ordering
     const sortParam = sortBy === 'rating_asc' ? '&sort=rating_asc'
