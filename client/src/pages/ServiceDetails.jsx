@@ -12,7 +12,7 @@ export default function ServiceDetails() {
   const [submitting, setSubmitting] = useState(false);
 
   const fetchService = () => {
-    const API_URL = import.meta.env.VITE_API_URL || 'https://nearnest-server.vercel.app';
+    const API_URL = (import.meta.env.VITE_API_URL || 'https://nearnest-server.vercel.app').replace(/\/+$/, '');
     axios.get(`${API_URL}/api/services/${id}`)
       .then(res => setData(res.data))
       .catch(err => console.error(err));
@@ -27,7 +27,7 @@ export default function ServiceDetails() {
     if (!newReviewText) return;
     
     setSubmitting(true);
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const API_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace(/\/+$/, '');
     axios.post(`${API_URL}/api/services/${id}/reviews`, {
       text: newReviewText,
       rating: newReviewRating
